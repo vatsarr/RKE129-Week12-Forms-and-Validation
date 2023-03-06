@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: 2rem auto;
+  text-align: center;
+  width: 75%;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+#userTaskInput {
+  border-width: 0;
+  border-bottom: 1px solid black;
+  font-size: 1.5rem;
+  outline: none;
+}
+
+#addTask {
+  background-color: darkgreen;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.toDos {
+  margin-top: 1rem;
+}
+
+.li-styling {
+  font-size: 1rem;
+  list-style: none;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
